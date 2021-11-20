@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700&display=swap');
+.body{
+    height:auto;
+    margin:0;
+    padding: 0;
+    background-color:rgb(59, 59, 59);
+    font-family: 'Lato', sans-serif; ;
+}
+.resume{
+    width:800px;
+    height: 100%;
+    min-height: 1150px;
+    margin:1% auto;
+    background:whitesmoke;
+    border-radius: 5px;
+}
+img{
+    width:15%;
+    border-top-left-radius: 5px ;
+}
+.headder{
+    float:right;
+    width:89.5%;
+    padding: 20px;
+    background: #F4D03F;
+    border-top-right-radius:5px;
+    margin-left: 0.5%;
+    font-weight: 700;
+}
+.headder h1{
+    margin:5px 0 0 0;
+}
+.headder p{
+    margin:0;
+    padding:0;
+}
+.head{
+    display: flex;
+    align-items: stretch;
+}
+.content{
+    padding-left:10%;
+    margin-top:5%;
+    font-size: 0.9em;
+}
+.sub-head{
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    display:inline-block;
+    padding:2px;
+    letter-spacing: 2px;
+    margin:10px 0;
+}
+.sub-content{
+    font-weight: 400;
+    margin:10px 0;
+    line-height: 30px;
+}
+.institutes{
+    font-weight:700;
+    margin-bottom: 2px;
+}
+.time-span{
+    color:rgb(156, 153, 153);
+    margin:0 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+li{
+    font-weight: 400;
+    line-height: 25px;
+}
+.progress{
+    margin-bottom: 20px;
+}
+.progCont{
+    display:flex;
+}
+.sub-section{
+    width:40%;
+    margin-right: 10%;
+}
+.progP{
+    font-weight: 700;
+    margin:0;
+    padding:0;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:800px){
+    .resume{width:100%;
+        margin:auto auto;
+    }
+}
